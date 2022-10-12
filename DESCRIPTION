@@ -1,0 +1,21 @@
+Package: Analysis
+Type: Package
+Title: Analyse and plot Maths Dataset
+Version: 0.1.0
+Author: person("Aditya","Shetty",email="aditya.shetty@ucdconnect.ie",role=c("aut","cre"))
+Maintainer: The package maintainer <aditya.shetty@ucdconnect.ie>
+Description: Loading data, analysis of the data, plot the model and data, animate your analysis.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    gganimate,
+    ggplot2,
+    ggpubr,
+    gifski,
+    graphics,
+    readxl,
+    shiny,
+    stats,
+    tibble
+RoxygenNote: 7.2.1
